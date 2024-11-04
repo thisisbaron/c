@@ -1,0 +1,5 @@
+---
+triple:          'arm64-apple-darwin'
+binary-path:     "/Users/baron/c文件/7.1.3没有返回值的函数"
+relocations:     []
+...
