@@ -16,7 +16,7 @@ int main()
     if(cnt > 0){
         printf("%f\n",sum/cnt);
         int i;
-        for(i = 0;i<cnt;i++){
+        for(i = 0;i<cnt;i++){git remote add origin
             if(number[i] > sum/cnt){
                 printf("%d\n",number[i]);
             }

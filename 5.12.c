@@ -11,5 +11,5 @@ int main()
     i++;n++;
     if(i%10 == 0)printf("\n");
     }
-    printf("\n");
+    printf("\n"); 
 }
