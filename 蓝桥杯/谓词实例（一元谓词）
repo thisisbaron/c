@@ -1,0 +1,25 @@
+//已知客体域A={x|x∈N, 100≤x≤200}，其中N为自然数的集合，谓词P(x)表示“x是素数”。求使得该谓词取值为T的x取值。
+
+//输出使得谓词P(x)取值为T的x取值，用空格隔开。
+
+
+
+
+
+#include <stdio.h>
+#include <stdlib.h>
+
+int main(int argc, char *argv[])
+{
+  for(int i=100;i<200;i++){
+    for(int j=2;j<=i-1;j++){
+      if(i%j==0){
+        break;
+      }
+      if(j==i-1){
+        printf("%d ",i);
+      }
+    }
+  }
+  return 0;
+}
