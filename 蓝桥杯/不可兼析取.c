@@ -9,7 +9,7 @@ int main(int argc, char *argv[])
   // 请在此输入您的代码
   int p,q;
   scanf("%d %d",&p,&q);
-  if(p==q) printf("0");//判断pq是否相等
-  else printf("1");
+  if(p==q) printf("1");//判断pq是否相等
+  else printf("0");
   return 0;
 }
