@@ -1,0 +1,13 @@
+import math
+
+while True:
+    try:
+        n = input("输入：")
+        n = int(n)
+        if n < 0:
+            raise Exception("整数为负数")
+        print(math.sqrt(n))
+        print("done")
+        break
+    except Exception as err:
+        print("输入错误：", err)
