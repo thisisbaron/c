@@ -1,0 +1,11 @@
+def fun(x, y):
+    print("in fun:", x, y)
+    x = 1
+    y = 2
+
+
+# 主函数
+x = 100
+y = 200
+fun(x, y)
+print(x, y)
